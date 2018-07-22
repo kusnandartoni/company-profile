@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Alert from './components/Alert';
-import Card from './components/Card';
+// import Card from './components/Card';;
 import Header from './components/Header';
+import { Jumbotron, Button } from 'reactstrap';
 
 class App extends Component {
   render() {
