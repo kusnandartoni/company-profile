@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 // import Card from './components/Card';;
 import Header from './components/Header';
 import { Jumbotron, Button } from 'reactstrap';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -23,7 +24,8 @@ class App extends Component {
           message="pindah ke halaman lain -> "
           link="http://santrenkoding.org"
           linkText="Santren Koding"
-        />      */}
+        />     
+        <Footer tahun="2018" />
         {/* <Card
           title="judul"
           subTitle="subtitle"
